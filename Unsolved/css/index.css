@@ -1,3 +1,96 @@
+h1, h2, h3, h4, h4, h6 {
+  font-family: 'Anton', sans-serif;
+}
+
+p {
+  font-family: 'Jura', sans-serif;
+}
+
+.customNav {
+  position: fixed;
+  width: 100%;
+  background: url(/Unsolved/images/transparency.png);
+  background-color: transparent !important;
+  background-size: cover;
+  z-index: 10;
+}
+
+.nav-bar {
+  margin-left: auto;
+  margin-right: 0 !important;
+}
+
+.navbar-brand img {
+  padding-right: 15px;
+  width: 65px;
+}
+
+.nav-item {
+  margin: 0px 15px;
+}
+
+.dropdown-menu {
+  background: url(/Unsolved/images/transparency.png);
+  background-color: transparent !important;
+  background-size: cover;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+  color: #16181b;
+  text-decoration: none;
+  background: white !important;
+}
+
+.customNav a {
+  color: white !important;
+}
+
+.navCTA {
+  font-size: 15px;
+  background-color: #242259;
+  color: white !important;
+}
+
+.navCTA:hover {
+  background-color: #5852F2;
+  color: white !important;
+}
+
+.jumbotron {
+  background-image: url(/Unsolved/images/rockOn_dark.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  height: calc(100vh - 25px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.jumbCopy {
+  width: 70%;
+  min-width: 500px;
+  max-width: 700px;
+  color: white;
+  text-align: center;
+}
+
+.content {
+  padding: 50px;
+}
+
+.sectionHeading {
+  text-align: center;
+}
+
+.showsNear {
+  padding: 0px 30px 30px 30px;
+}
+
+.cardContainer {
+  text-align: center;
+}
+
 footer {
   position: absolute;
   width: 100%;

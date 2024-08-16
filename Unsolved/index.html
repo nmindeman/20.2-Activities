@@ -12,23 +12,26 @@
     <title>Hello, world!</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light customNav">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#">
+          <img src="images/acoustic-guitar.png" alt="Accoustic Guitar">
+          Rock Nation
+        </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="#">Venues</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link" href="#">Artists</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown
+                Near You
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li><a class="dropdown-item" href="#">Action</a></li>
@@ -38,23 +41,24 @@
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled">Disabled</a>
+              <a class="nav-link btn btn-primary btn-lg navCTA" href="#" role="button">
+                Buy Tickets!
+              </a>
             </li>
           </ul>
-          <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
+          
         </div>
       </div>
     </nav>
+   
 
     <!-- Jumbotron -->
 
-    <div class="jumbotron p-5 mb-4 bg-body-tertiary rounded-3">
-      <div class="container-fluid py-5">
+    <div class="jumbotron p-5 mb-4 bg-body-tertiary rounded-3 rockBackground">
+      <div class="jumbCopy container-fluid py-5">
         <h1 class="display-5 fw-bold">Hello, world!</h1>
-        <p class="col-md-8 fs-4">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+        <p class="col-md-8 fs-4">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.
+        </p>
         <button class="btn btn-primary btn-lg" type="button">Example button</button>
       </div>
     </div>
@@ -65,9 +69,9 @@
     <div class="container-fluid">
       <div class="row">
         <!-- Card 1 -->
-        <div class="cardContainer col-lg-3 col-md-3 col-sm-6">
+        <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
           <div class="card">
-            <img src="images/1_card.png" class="card-img-top" alt="...">
+            <img src="images/1_card.png" class="card-img-top" alt="Barista">
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -78,9 +82,9 @@
         <!-- End card 1 -->
 
         <!-- Card 2 -->
-        <div class="cardContainer col-lg-3 col-md-3 col-sm-6">
+        <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
           <div class="card">
-            <img src="images/2_card.png" class="card-img-top" alt="...">
+            <img src="images/2_card.png" class="card-img-top" alt="Outdoors">
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -91,9 +95,9 @@
         <!-- End card 2 -->
 
         <!-- Card 3 -->
-        <div class="cardContainer col-lg-3 col-md-3 col-sm-6">
+        <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
           <div class="card">
-            <img src="images/3_card.png" class="card-img-top" alt="...">
+            <img src="images/3_card.png" class="card-img-top" alt="Indoors">
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -109,9 +113,10 @@
 
     <!-- Content -->
     <div class="container-fluid">
+      <h2 class="sectionHeading">Shows Near You</h2>
 
       <!-- Row 1 -->
-      <div class="row">
+      <div class="row showsNear">
         <div class="sideAccent">
         </div>
         <div class="col-3">
